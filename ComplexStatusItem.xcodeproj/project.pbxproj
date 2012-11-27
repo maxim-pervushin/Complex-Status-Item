@@ -13,6 +13,19 @@
 		C54082E51664D9AD002D0731 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = C54082E31664D9AD002D0731 /* Credits.rtf */; };
 		C54082E81664D9AD002D0731 /* MFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C54082E71664D9AD002D0731 /* MFAppDelegate.m */; };
 		C54082EB1664D9AD002D0731 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C54082E91664D9AD002D0731 /* MainMenu.xib */; };
+		C54082F31664DAED002D0731 /* MFStatusView.m in Sources */ = {isa = PBXBuildFile; fileRef = C54082F21664DAED002D0731 /* MFStatusView.m */; };
+		C54082FD1664DE09002D0731 /* mf-image-black.png in Resources */ = {isa = PBXBuildFile; fileRef = C54082F91664DE09002D0731 /* mf-image-black.png */; };
+		C54082FE1664DE09002D0731 /* mf-image-black@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C54082FA1664DE09002D0731 /* mf-image-black@2x.png */; };
+		C54082FF1664DE09002D0731 /* mf-image-white.png in Resources */ = {isa = PBXBuildFile; fileRef = C54082FB1664DE09002D0731 /* mf-image-white.png */; };
+		C54083001664DE09002D0731 /* mf-image-white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C54082FC1664DE09002D0731 /* mf-image-white@2x.png */; };
+		C54083111664E5A6002D0731 /* button-off-black.png in Resources */ = {isa = PBXBuildFile; fileRef = C54083091664E5A6002D0731 /* button-off-black.png */; };
+		C54083121664E5A6002D0731 /* button-off-black@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C540830A1664E5A6002D0731 /* button-off-black@2x.png */; };
+		C54083131664E5A6002D0731 /* button-off-white.png in Resources */ = {isa = PBXBuildFile; fileRef = C540830B1664E5A6002D0731 /* button-off-white.png */; };
+		C54083141664E5A6002D0731 /* button-off-white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C540830C1664E5A6002D0731 /* button-off-white@2x.png */; };
+		C54083151664E5A6002D0731 /* button-on-black.png in Resources */ = {isa = PBXBuildFile; fileRef = C540830D1664E5A6002D0731 /* button-on-black.png */; };
+		C54083161664E5A6002D0731 /* button-on-black@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C540830E1664E5A6002D0731 /* button-on-black@2x.png */; };
+		C54083171664E5A6002D0731 /* button-on-white.png in Resources */ = {isa = PBXBuildFile; fileRef = C540830F1664E5A6002D0731 /* button-on-white.png */; };
+		C54083181664E5A6002D0731 /* button-on-white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C54083101664E5A6002D0731 /* button-on-white@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +42,20 @@
 		C54082E61664D9AD002D0731 /* MFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFAppDelegate.h; sourceTree = "<group>"; };
 		C54082E71664D9AD002D0731 /* MFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MFAppDelegate.m; sourceTree = "<group>"; };
 		C54082EA1664D9AD002D0731 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		C54082F11664DAED002D0731 /* MFStatusView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFStatusView.h; sourceTree = "<group>"; };
+		C54082F21664DAED002D0731 /* MFStatusView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFStatusView.m; sourceTree = "<group>"; };
+		C54082F91664DE09002D0731 /* mf-image-black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mf-image-black.png"; sourceTree = "<group>"; };
+		C54082FA1664DE09002D0731 /* mf-image-black@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mf-image-black@2x.png"; sourceTree = "<group>"; };
+		C54082FB1664DE09002D0731 /* mf-image-white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mf-image-white.png"; sourceTree = "<group>"; };
+		C54082FC1664DE09002D0731 /* mf-image-white@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mf-image-white@2x.png"; sourceTree = "<group>"; };
+		C54083091664E5A6002D0731 /* button-off-black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-off-black.png"; sourceTree = "<group>"; };
+		C540830A1664E5A6002D0731 /* button-off-black@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-off-black@2x.png"; sourceTree = "<group>"; };
+		C540830B1664E5A6002D0731 /* button-off-white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-off-white.png"; sourceTree = "<group>"; };
+		C540830C1664E5A6002D0731 /* button-off-white@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-off-white@2x.png"; sourceTree = "<group>"; };
+		C540830D1664E5A6002D0731 /* button-on-black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-on-black.png"; sourceTree = "<group>"; };
+		C540830E1664E5A6002D0731 /* button-on-black@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-on-black@2x.png"; sourceTree = "<group>"; };
+		C540830F1664E5A6002D0731 /* button-on-white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-on-white.png"; sourceTree = "<group>"; };
+		C54083101664E5A6002D0731 /* button-on-white@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-on-white@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,10 +109,13 @@
 		C54082DA1664D9AD002D0731 /* ComplexStatusItem */ = {
 			isa = PBXGroup;
 			children = (
+				C54082F41664DC68002D0731 /* Images */,
 				C54082E61664D9AD002D0731 /* MFAppDelegate.h */,
 				C54082E71664D9AD002D0731 /* MFAppDelegate.m */,
 				C54082E91664D9AD002D0731 /* MainMenu.xib */,
 				C54082DB1664D9AD002D0731 /* Supporting Files */,
+				C54082F11664DAED002D0731 /* MFStatusView.h */,
+				C54082F21664DAED002D0731 /* MFStatusView.m */,
 			);
 			path = ComplexStatusItem;
 			sourceTree = "<group>";
@@ -100,6 +130,25 @@
 				C54082E31664D9AD002D0731 /* Credits.rtf */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C54082F41664DC68002D0731 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				C54083091664E5A6002D0731 /* button-off-black.png */,
+				C540830A1664E5A6002D0731 /* button-off-black@2x.png */,
+				C540830B1664E5A6002D0731 /* button-off-white.png */,
+				C540830C1664E5A6002D0731 /* button-off-white@2x.png */,
+				C540830D1664E5A6002D0731 /* button-on-black.png */,
+				C540830E1664E5A6002D0731 /* button-on-black@2x.png */,
+				C540830F1664E5A6002D0731 /* button-on-white.png */,
+				C54083101664E5A6002D0731 /* button-on-white@2x.png */,
+				C54082F91664DE09002D0731 /* mf-image-black.png */,
+				C54082FA1664DE09002D0731 /* mf-image-black@2x.png */,
+				C54082FB1664DE09002D0731 /* mf-image-white.png */,
+				C54082FC1664DE09002D0731 /* mf-image-white@2x.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,6 +206,18 @@
 				C54082DF1664D9AD002D0731 /* InfoPlist.strings in Resources */,
 				C54082E51664D9AD002D0731 /* Credits.rtf in Resources */,
 				C54082EB1664D9AD002D0731 /* MainMenu.xib in Resources */,
+				C54082FD1664DE09002D0731 /* mf-image-black.png in Resources */,
+				C54082FE1664DE09002D0731 /* mf-image-black@2x.png in Resources */,
+				C54082FF1664DE09002D0731 /* mf-image-white.png in Resources */,
+				C54083001664DE09002D0731 /* mf-image-white@2x.png in Resources */,
+				C54083111664E5A6002D0731 /* button-off-black.png in Resources */,
+				C54083121664E5A6002D0731 /* button-off-black@2x.png in Resources */,
+				C54083131664E5A6002D0731 /* button-off-white.png in Resources */,
+				C54083141664E5A6002D0731 /* button-off-white@2x.png in Resources */,
+				C54083151664E5A6002D0731 /* button-on-black.png in Resources */,
+				C54083161664E5A6002D0731 /* button-on-black@2x.png in Resources */,
+				C54083171664E5A6002D0731 /* button-on-white.png in Resources */,
+				C54083181664E5A6002D0731 /* button-on-white@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,6 +230,7 @@
 			files = (
 				C54082E11664D9AD002D0731 /* main.m in Sources */,
 				C54082E81664D9AD002D0731 /* MFAppDelegate.m in Sources */,
+				C54082F31664DAED002D0731 /* MFStatusView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +324,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ComplexStatusItem/ComplexStatusItem-Prefix.pch";
 				INFOPLIST_FILE = "ComplexStatusItem/ComplexStatusItem-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -274,6 +337,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ComplexStatusItem/ComplexStatusItem-Prefix.pch";
 				INFOPLIST_FILE = "ComplexStatusItem/ComplexStatusItem-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

@@ -7,12 +7,20 @@
 //
 
 #import "MFAppDelegate.h"
+#import "MFStatusView.h"
+
+@interface MFAppDelegate ()
+{
+    MFStatusView *_statusView;
+}
+
+@end
 
 @implementation MFAppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
-    // Insert code here to initialize your application
+    _statusView = [[MFStatusView alloc] init];
 }
 
 @end
