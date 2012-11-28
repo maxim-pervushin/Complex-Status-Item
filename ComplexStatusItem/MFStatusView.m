@@ -46,11 +46,9 @@
         _checked= NO;
         
         _imageView = [[NSImageView alloc] initWithFrame:NSMakeRect(0, 0, ImageViewWidth, height)];
-        _imageView.image = [NSImage imageNamed:@"mf-image-black"];
         [self addSubview:_imageView];
 
         _toggleImageView = [[NSImageView alloc] initWithFrame:NSMakeRect(ToggleImageViewWidth, 0, ToggleImageViewWidth, height)];
-        _toggleImageView.image = [NSImage imageNamed:@"button-off"];
         [self addSubview:_toggleImageView];
 
         _statusItem = [[NSStatusBar systemStatusBar] statusItemWithLength:(ImageViewWidth + ToggleImageViewWidth)];
@@ -78,6 +76,7 @@
         [quitItem setEnabled:YES];
         [_statusItemMenu addItem:quitItem];
 
+        [self updateUI];
     }
     return self;
 }
