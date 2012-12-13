@@ -13,21 +13,26 @@
 
 @interface MFStatusView ()
 {
-    BOOL _active;
-    BOOL _checked;
+    BOOL _active; // View highlighted or not
+    BOOL _checked; // Radio button checked or not
     
-    NSImageView *_imageView;
-    NSImageView *_toggleImageView;
+    NSImageView *_imageView; // Image view showing 'MF' label image
+    NSImageView *_toggleImageView; // Image view showing radio button image
     
-    NSStatusItem *_statusItem;
-    NSMenu *_statusItemMenu;
+    NSStatusItem *_statusItem; // Status item that contains current view
+    NSMenu *_statusItemMenu; // Simple menu that should be presented when user clicks 'MF' label
 }
 
+// Updates the whole view appearance
 - (void)updateUI;
+// Sets _active value and updates UI
 - (void)setActive:(BOOL)active;
+// Toggles radio button state and updates UI
 - (void)toggle;
+// Sets radio button state and updates UI
 - (void)setChecked:(BOOL)checked;
 
+// Menu actions handlers
 - (void)firstMenuItemAction:(id)sender;
 - (void)secondMenuItemAction:(id)sender;
 - (void)quitMenuItemAction:(id)sender;
@@ -51,9 +56,11 @@
         _toggleImageView = [[NSImageView alloc] initWithFrame:NSMakeRect(ToggleImageViewWidth, 0, ToggleImageViewWidth, height)];
         [self addSubview:_toggleImageView];
 
+        // Create status item
         _statusItem = [[NSStatusBar systemStatusBar] statusItemWithLength:(ImageViewWidth + ToggleImageViewWidth)];
         _statusItem.view = self;
         
+        // Create status item menu
         _statusItemMenu = [[NSMenu alloc] init];
         _statusItemMenu.delegate = self;
         _statusItemMenu.autoenablesItems = NO;
@@ -78,6 +85,7 @@
 
         [self updateUI];
     }
+    
     return self;
 }
 
@@ -95,9 +103,9 @@
 - (void)mouseDown:(NSEvent *)theEvent
 {
     NSPoint point = [theEvent locationInWindow];
-    if (NSPointInRect(point, _toggleImageView.frame)) {
+    if (NSPointInRect(point, _toggleImageView.frame)) { // Radio button clicked
         [self toggle];
-    } else {
+    } else { // 'MF' view clicked
         [self setActive:YES];
         [_statusItem popUpStatusItemMenu:_statusItemMenu];
     }
